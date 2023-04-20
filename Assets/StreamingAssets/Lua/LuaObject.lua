@@ -34,6 +34,7 @@ end
 Object:Subclass("PlayerInfo")
 PlayerInfo.name = "测试"
 PlayerInfo.age = 100
+PlayerInfo.speed = 0.5
 
 function PlayerInfo:ChangeAge(newAge)
     print(newAge)

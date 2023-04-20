@@ -38,7 +38,7 @@ NewMoveControl = function()
     if a~=0 or b~=0 then
         -- print(a)
         -- print(b)
-        Pos = Pos +  CS.UnityEngine.Vector3(a,0,b) / 2    -- CS.UnityEngine.Vector3(a,0,b)-- Pos.x + 1 -- + CS.UnityEngine.Vector3(a,0,b)
+        Pos = Pos +  CS.UnityEngine.Vector3(a,0,b) / 2 * playA.speed  -- CS.UnityEngine.Vector3(a,0,b)-- Pos.x + 1 -- + CS.UnityEngine.Vector3(a,0,b)
         -- print(Pos)
         --Tag.transform.position = Pos        
         --rigidbody.useGravity = false;

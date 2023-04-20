@@ -122,6 +122,7 @@ public class LuaCore_PlayerInfo : LuaCore_Object
 
     public string name;
     public int age;
+    public float speed;
 
     public MyTransSelfAndParams_PlayerInfo ChangeAge;
     public OneStringParams Func1;
